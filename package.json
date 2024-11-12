@@ -1,0 +1,21 @@
+{
+  "name": "dadjokesapi",
+  "version": "1.0.0",
+  "main": "dadJokes.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dadJokes.js",
+    "dev": "nodemon dadJokes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
